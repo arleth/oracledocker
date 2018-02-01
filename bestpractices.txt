@@ -1,0 +1,3 @@
+use this to illustrate the diff volume types and whether existing files on images are copied to mapped directory on host:
+ 
+docker run -d --name=nginxtest -v nginx-vol:/usr/share/nginx/html nginx:latest
